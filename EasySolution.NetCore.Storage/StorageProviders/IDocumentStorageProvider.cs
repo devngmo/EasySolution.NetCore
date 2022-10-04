@@ -10,9 +10,14 @@ namespace EasySolution.NetCore.Storage.StorageProviders
     {
         public string DocumentId { get; set; }
     }
+    public class DocumentRecord<TDocument>
+    {
+        public string _id { get; set; }
+        public TDocument source { get; set; }
+    }
     public interface IDocumentStorageProvider<TDocument>
     {
         AddDocumentResult Add(TDocument doc);
-        TDocument? Get(string id);
+        DocumentRecord<TDocument>? Get(string id);
     }
 }

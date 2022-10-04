@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace EasySolution.NetCore.Storage.Document
@@ -21,7 +22,7 @@ namespace EasySolution.NetCore.Storage.Document
             return storageProvider.Add(doc);
         }
 
-        public TDocument? Get(string id)
+        public DocumentRecord<TDocument>? Get(string id)
         {
             return storageProvider.Get(id);
         }
