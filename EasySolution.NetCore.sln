@@ -3,9 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasySolution.NetCore.Storage", "EasySolution.NetCore.Storage\EasySolution.NetCore.Storage.csproj", "{59D8ADBB-131C-4D26-B0CC-D59DD8055738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Storage", "EasySolution.NetCore.Storage\EasySolution.NetCore.Storage.csproj", "{59D8ADBB-131C-4D26-B0CC-D59DD8055738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasySolution.NetCore.Storage.Test", "EasySolution.NetCore.Storage.Test\EasySolution.NetCore.Storage.Test.csproj", "{7BBE16FC-AB99-46EC-84DE-858228D47097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Storage.Test", "EasySolution.NetCore.Storage.Test\EasySolution.NetCore.Storage.Test.csproj", "{7BBE16FC-AB99-46EC-84DE-858228D47097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Shared", "EasySolution.NetCore.Shared\EasySolution.NetCore.Shared.csproj", "{23671A4B-31F8-4FE6-AA91-DE17447B61C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Storage.MongoDB", "EasySolution.NetCore.Storage.MongoDB\EasySolution.NetCore.Storage.MongoDB.csproj", "{0CF72ADF-FDC2-429F-B01E-7BDADC10178C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Smartlog", "EasySolution.NetCore.Smartlog\EasySolution.NetCore.Smartlog.csproj", "{4CD1DFA9-0E66-4EB6-9A70-70A77EB9DACB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Smartlog.Test", "EasySolution.NetCore.Smartlog.Test\EasySolution.NetCore.Smartlog.Test.csproj", "{369D0073-A790-4368-81CB-B1B171D905E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Smartlog.Redis", "EasySolution.NetCore.Smartlog.Redis\EasySolution.NetCore.Smartlog.Redis.csproj", "{6DA8731D-FD05-4C90-A30E-CA7177C285E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasySolution.NetCore.Smartlog.MongoDB", "EasySolution.NetCore.Smartlog.MongoDB\EasySolution.NetCore.Smartlog.MongoDB.csproj", "{5734C3A7-D5A9-44A9-A387-AD6FE9B8B7F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasySolution.NetCore.CredVault", "EasySolution.NetCore.CredVault\EasySolution.NetCore.CredVault.csproj", "{A162B0DD-F0E0-44AF-9D18-265E70C74770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +35,34 @@ Global
 		{7BBE16FC-AB99-46EC-84DE-858228D47097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBE16FC-AB99-46EC-84DE-858228D47097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBE16FC-AB99-46EC-84DE-858228D47097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23671A4B-31F8-4FE6-AA91-DE17447B61C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23671A4B-31F8-4FE6-AA91-DE17447B61C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23671A4B-31F8-4FE6-AA91-DE17447B61C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23671A4B-31F8-4FE6-AA91-DE17447B61C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF72ADF-FDC2-429F-B01E-7BDADC10178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF72ADF-FDC2-429F-B01E-7BDADC10178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF72ADF-FDC2-429F-B01E-7BDADC10178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF72ADF-FDC2-429F-B01E-7BDADC10178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD1DFA9-0E66-4EB6-9A70-70A77EB9DACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD1DFA9-0E66-4EB6-9A70-70A77EB9DACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD1DFA9-0E66-4EB6-9A70-70A77EB9DACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD1DFA9-0E66-4EB6-9A70-70A77EB9DACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369D0073-A790-4368-81CB-B1B171D905E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369D0073-A790-4368-81CB-B1B171D905E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369D0073-A790-4368-81CB-B1B171D905E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369D0073-A790-4368-81CB-B1B171D905E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA8731D-FD05-4C90-A30E-CA7177C285E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA8731D-FD05-4C90-A30E-CA7177C285E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA8731D-FD05-4C90-A30E-CA7177C285E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA8731D-FD05-4C90-A30E-CA7177C285E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5734C3A7-D5A9-44A9-A387-AD6FE9B8B7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5734C3A7-D5A9-44A9-A387-AD6FE9B8B7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5734C3A7-D5A9-44A9-A387-AD6FE9B8B7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5734C3A7-D5A9-44A9-A387-AD6FE9B8B7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A162B0DD-F0E0-44AF-9D18-265E70C74770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A162B0DD-F0E0-44AF-9D18-265E70C74770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A162B0DD-F0E0-44AF-9D18-265E70C74770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A162B0DD-F0E0-44AF-9D18-265E70C74770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,12 +13,13 @@
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
     <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="YamlDotNet" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EasySolution.NetCore.CredVault\EasySolution.NetCore.CredVault.csproj" />
-    <ProjectReference Include="..\EasySolution.NetCore.Storage.MongoDB\EasySolution.NetCore.Storage.MongoDB.csproj" />
-    <ProjectReference Include="..\EasySolution.NetCore.Storage\EasySolution.NetCore.Storage.csproj" />
+    <ProjectReference Include="..\EasySolution.NetCore.Smartlog.MongoDB\EasySolution.NetCore.Smartlog.MongoDB.csproj" />
+    <ProjectReference Include="..\EasySolution.NetCore.Smartlog\EasySolution.NetCore.Smartlog.csproj" />
   </ItemGroup>
 
 </Project>

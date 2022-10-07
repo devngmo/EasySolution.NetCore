@@ -26,5 +26,10 @@ namespace EasySolution.NetCore.Storage.Document
         {
             return storageProvider.Get(id);
         }
+
+        public void DeleteAll()
+        {
+            storageProvider.DeleteAll();
+        }
     }
 }
